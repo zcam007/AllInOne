@@ -8,11 +8,11 @@ let tabGroup = new TabGroup(
 );
 let tab = tabGroup.addTab({
     title: "",
-    src: "http://web.whatsapp.com",
+    src: "https://discordapp.com/login",
     visible: true,
     closable:false,
     icon:'fab fa-lg fa-facebook ',
-    iconURL:'https://img.icons8.com/color/36/000000/whatsapp.png'
+    iconURL:'https://img.icons8.com/color/48/000000/discord-logo.png'
 });
 
 let tab2 = tabGroup.addTab({
@@ -20,6 +20,15 @@ let tab2 = tabGroup.addTab({
     src: "https://web.telegram.org/#/login",
     visible: true,
     closable:false,
-    icon:'fab fa-lg fa-facebook ',
-    iconURL:'https://img.icons8.com/color/36/000000/facebook.png'
+    icon:'fab fa-lg fa-telegram',
+    iconURL:'https://img.icons8.com/color/48/000000/telegram-app.png'
 });
+let tab3 = tabGroup.addTab({
+    title: "",
+    src: "https://www.messenger.com/login/",
+    visible: true,
+    closable:false,
+    icon:'fab fa-lg fa-telegram',
+    iconURL:'https://img.icons8.com/color/48/000000/facebook-messenger.png'
+});
+tab.activate();
